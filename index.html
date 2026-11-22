@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0f">
+  <meta name="description" content="Glenn Ariola — Frontend Developer, Game Developer, and Workflow Automation enthusiast.">
+  <title>Glenn Ariola | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Glenn Ariola home">
+        <span class="brand-mark">G</span>
+        <span class="brand-copy"><strong>Glenn Ariola</strong><small>Web and Game Developer | Workflow Automation Developer</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#services">What I do</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#credentials">Credentials</a>
+        <a class="nav-contact" href="#contact">Contact ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="availability"><span></span> Open to opportunities</div>
+          <div class="eyebrow">Hello, I'm Glenn Ariola</div>
+          <h1>I build things<br>for the <span>digital world.</span></h1>
+          <p class="hero-lead">A recent IT graduate exploring the intersection of frontend development, game development, and workflow automation. I enjoy turning ideas into useful, interactive experiences.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">Sample Works <span>↗</span></a>
+            <a class="btn btn-secondary" href="#contact">Let's connect</a>
+          </div>
+          <div class="hero-tags">Frontend development&nbsp; · &nbsp;Game development&nbsp; · &nbsp;Workflow automation</div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame" id="portraitFrame">
+            <!-- Replace portrait.jpg with your own photo in the same folder. -->
+            <div class="portrait-placeholder">
+              <img src="images/picture.png" alt="My profile picture">
+            </div>
+          </div>
+          <div class="visual-note"><strong>Curious by nature.</strong><small>Always learning and building.</small></div>
+        </div>
+      </div>
+      <div class="scroll-cue">Scroll to explore</div>
+    </section>
+
+    <section class="section section-dark" id="work">
+      <div class="container">
+        <div class="eyebrow">Selected work</div>
+        <h2>Things I've been <span class="accent">building.</span></h2>
+        <p class="section-intro">A selection of projects that reflect what I enjoy creating. Add live links, GitHub repositories, and screenshots as each project becomes ready to showcase.</p>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-art">
+              <img src="images/Ecommerce.jpg" alt="Ecommerce Website">
+              <div class="project-window">
+                <div class="window-dots"><i></i><i></i><i></i></div>
+                <div class="mock-line purple"></div><div class="mock-line" style="width:82%"></div><div class="mock-line" style="width:64%"></div>
+                <div class="mock-boxes"><span></span><span></span><span></span></div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">Web development · Project</div>
+              <h3>BiteMarket (E-commerce Website)</h3>
+              <p>A standalone e-commerce website built to practice frontend structure, responsive layouts, and user-facing shopping flows. <br> 
+                Link: <a href=https://ecommerce-ariola.vercel.app/ target="_blank"><u style="color: violet;">CLICK HERE</u></a> <br>
+                Repository: <a href="https://github.com/GlennFordAriola/ECommerce.git"><u style="color: violet;">CLICK HERE</u></a>
+              </p>
+              <div class="tag-list"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-art alt">
+              <img src="images/TelegramBot.jpg" alt="Telegram Bot Project">
+              <div class="project-window">
+                <div class="window-dots"><i></i><i></i><i></i></div>
+                <div class="mock-line purple" style="width:36%"></div>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px">
+                  <div style="height:70px;border-radius:7px;background:rgba(167,139,250,.15)"></div>
+                  <div style="height:70px;border-radius:7px;background:rgba(255,255,255,.06)"></div>
+                </div>
+                <div class="mock-line" style="width:76%;margin-top:14px"></div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">Workflow Automation · Practice</div>
+              <h3>Telegram Bot Automation</h3>
+              <p>An automated Telegram bot designed to handle messages, respond to user commands, and simplify everyday tasks through efficient workflows. <br>
+                Link: <a href=https://t.me/gford_automation_bot target="_blank"><u style="color: violet;">CLICK HERE</u></a>
+              </p>
+              <div class="tag-list"><span class="tag">Zapier</span><span class="tag">Workflow</span><span class="tag">Automation</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-art">
+              <div style="text-align:center">
+                <div style="font:700 3rem 'Space Grotesk';color:#c4b5fd">DON'T</div>
+                <div style="font:700 2.1rem 'Space Grotesk';letter-spacing:.08em">GET HIT</div>
+                <div style="font-size:.68rem;letter-spacing:.2em;color:#a09baa;margin-top:10px">ROBLOX GAME · IN DEVELOPMENT</div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">Game development · In progress</div>
+              <h3>Don't Get Hit</h3>
+              <p>A Roblox game project currently in development, built as a hands-on way to explore gameplay systems and player experience.</p>
+              <div class="tag-list"><span class="tag">Roblox Studio</span><span class="tag">Lua</span><span class="tag">Game Design</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-art alt">
+              <img src="images/FormsToMail.jpg" alt="Form-to-Email Project">
+              <div style="text-align:center">
+                <div style="font-size:2.8rem;color:#c4b5fd">↗</div>
+                <div style="font:600 1.1rem 'Space Grotesk';margin-top:8px">FORM → AUTOMATION</div>
+                <div style="font-size:.68rem;color:#a09baa;margin-top:8px">CONNECT · ORGANIZE · NOTIFY</div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">Workflow automation · Practice</div>
+              <h3>Form-to-Email Workflow</h3>
+              <p>An automation practice project that connects Google Forms submissions to email notifications (Gmail), helping reduce repetitive manual steps. <br>
+                Link: <a href=https://docs.google.com/forms/d/e/1FAIpQLSflUJKbg811L0B1sXjO41pkJg5W2XuQD82G7u2XYCZLuIoyWA/viewform?usp=sharing&ouid=116308771234313495245 target="_blank"><u style="color: violet;">CLICK HERE</u></a>
+              </p>
+              <div class="tag-list"><span class="tag">Zapier</span><span class="tag">Google Forms</span><span class="tag">Gmail</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="eyebrow">What I do</div>
+        <h2>Different interests.<br><span class="accent">One curious mind.</span></h2>
+        <p class="section-intro">I like learning how digital products work, from the interface people interact with to the logic and workflows behind them.</p>
+        <div class="cards-3">
+          <article class="service-card reveal">
+            <div class="service-icon">⌘</div>
+            <h3>Frontend Development</h3>
+            <p>Building responsive, accessible, and user-friendly web interfaces with a focus on clean layouts and practical functionality.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">◇</div>
+            <h3>Game Development</h3>
+            <p>Creating interactive gameplay experiences and experimenting with mechanics, scripting, and game systems in Roblox Studio.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">↗</div>
+            <h3>Workflow Automation</h3>
+            <p>Connecting tools and simplifying repetitive tasks using platforms such as Zapier, n8n, and Make.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="skills">
+      <div class="container">
+        <div class="eyebrow">My toolkit</div>
+        <h2>Skills & <span class="accent">technologies.</span></h2>
+        <p class="section-intro">Tools and technologies I've worked with or am actively exploring. This list can grow as you gain more hands-on experience.</p>
+        <div class="skills-layout">
+          <div class="skill-panel reveal">
+            <h3>Development</h3>
+            <div class="skill-group"><strong>Frontend</strong><div class="skill-chips"><span class="skill-chip">HTML</span><span class="skill-chip">CSS</span><span class="skill-chip">JavaScript</span></div></div>
+            <div class="skill-group"><strong>Game development</strong><div class="skill-chips"><span class="skill-chip">Lua</span><span class="skill-chip">Roblox Studio</span></div></div>
+            <div class="skill-group"><strong>Backend / data</strong><div class="skill-chips"><span class="skill-chip">PHP</span><span class="skill-chip">MySQL</span><span class="skill-chip">Supabase</span></div></div>
+          </div>
+          <div class="skill-panel reveal">
+            <h3>Tools & workflow</h3>
+            <div class="skill-group"><strong>Automation platforms</strong><div class="skill-chips"><span class="skill-chip">Zapier</span><span class="skill-chip">n8n</span><span class="skill-chip">Make</span></div></div>
+            <div class="skill-group"><strong>Development tools</strong><div class="skill-chips"><span class="skill-chip">Visual Studio Code</span><span class="skill-chip">Git</span><span class="skill-chip">GitHub</span><span class="skill-chip">Vercel</span></div></div>
+            <div class="skill-group"><strong>Creative tools</strong><div class="skill-chips"><span class="skill-chip">Roblox Studio</span><span class="skill-chip">CapCut</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="reveal">
+          <div class="eyebrow">A little about me</div>
+          <h2>Learning, creating, and <span class="accent">making things work.</span></h2>
+          <div class="about-stat"><strong>Information Technology Graduate</strong><span>Dalubhasaan ng Lungsod ng San Pablo</span></div>
+          <div class="about-stat"><strong>Always building</strong><span>Personal projects and practical experiments</span></div>
+        </div>
+        <div class="about-copy reveal">
+          <p>I'm Glenn, an Information Technology graduate with an interest in building useful and engaging digital experiences. I enjoy frontend development because it lets me turn ideas into interfaces people can use.</p>
+          <p>Outside of web development, I explore game development and workflow automation. Whether I'm scripting a game mechanic or connecting apps to simplify a task, I enjoy learning by building and improving through practice.</p>
+          <p>I'm currently looking for opportunities where I can contribute, keep learning, and grow as a developer.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="experience">
+      <div class="container">
+        <div class="eyebrow">My journey</div>
+        <h2>Experience & <span class="accent">learning.</span></h2>
+        <p class="section-intro">A simple overview of my development journey. Add formal employment, internships, or freelance work here when applicable.</p>
+        <div class="timeline">
+          <article class="timeline-card reveal">
+            <div class="timeline-date">Personal projects</div>
+            <div><h3>Independent Developer</h3><p>Practicing frontend development, building Roblox game projects, and experimenting with workflow automation tools.</p></div>
+          </article>
+          <article class="timeline-card reveal">
+            <div class="timeline-date">Academic</div>
+            <div><h3>Capstone Project Contributor</h3><p>Worked on Safehaven, an Web and Game capstone project involving PHP, postgreSQL, and database technologies.</p></div>
+          </article>
+          <article class="timeline-card reveal">
+            <div class="timeline-date">Ongoing learning</div>
+            <div><h3>Frontend & Automation Practice</h3><p>Continuing to improve responsive web development skills and learning how to connect services through automation platforms.</p></div>
+          </article>
+          <article class="timeline-card reveal">
+            <div class="timeline-date">Internship</div>
+            <div><h3>IT Support</h3><p>Gained hands-on experience in providing technical support, troubleshooting computer issues, assisting with hardware and software maintenance, and helping ensure smooth daily IT operations.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="credentials">
+      <div class="container">
+        <div class="eyebrow">Credentials</div>
+        <h2>Education & <span class="accent">recognition.</span></h2>
+        <p class="section-intro">Keep this section factual. Add certificates, training, awards, or relevant credentials as you earn them.</p>
+        <div class="credentials-grid">
+          <article class="credential-card reveal">
+            <div class="small-label">Education</div>
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p>Dalubhasaan ng Lungsod ng San Pablo · Graduate</p>
+          </article>
+          <article class="credential-card reveal">
+            <div class="small-label">Certificates</div>
+            <h3>Certificates & Training</h3>
+            <p>Basic Bookkeeping - Learn Business Recording with Peddlr - 2023 <br>
+              Advanced Bookkeeping - Learn Business Recording with Peddlr - 2023
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="contact">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div>
+            <div class="eyebrow">Get in touch</div>
+            <h2>Have a project or opportunity in mind?</h2>
+            <p>I'd be happy to connect, discuss ideas, or hear about opportunities where I can contribute and continue growing.</p>
+          </div>
+          <!-- Replace the email address below with the email you want employers to use. -->
+          <a class="btn btn-primary" href="mailto:gfordariola@gmail.com">Email me <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <span>© <span id="year"></span> Glenn Ariola. Built with curiosity.</span>
+      <div class="socials">
+        <!-- Replace # with your profile URLs. -->
+        <a href="https://github.com/GlennFordAriola" aria-label="GitHub profile">GitHub</a>
+        <a href="https://www.linkedin.com/in/ariola-glenn-ford-c-3757922b6/" aria-label="LinkedIn profile">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
